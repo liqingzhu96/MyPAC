@@ -13,7 +13,10 @@ var ipv6_proxy = function(){ return wall_v6_proxy(); };
  * https://github.com/breakwa11/gfw_whitelist
  */
 
-var user_domains = {
+var user_domains = {"com":{
+"steampowered":1,
+"steamcommunity":1
+}
 };
 
 var cnIpRange = [
